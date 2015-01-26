@@ -1,5 +1,5 @@
 Rails.application.routes.draw do
-  root 'attorneys/index'
+  root 'attorneys#index'
 
   get 'attorneys/create'
 
